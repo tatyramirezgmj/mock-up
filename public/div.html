@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Flight on Flight</title>
+  <link rel="stylesheet" href="div.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body class="body">
+  <main>
+
+
+  <div class="first-div">
+
+    <div class="tabs">
+      <ul id="ul-1">
+
+        <li id="li-tabs1">
+          <h5><span>&#x2708;</span> NYC <-> REK </h5>
+          <p> Apr 7 - 21 </p>
+        </li>
+
+        <li id="li-tabs2">
+
+          <h3> <span>&#x2708;</span> NYC <-> REK </h3>
+          <p>  Aug 5 - 19 </p>
+
+        </li>
+      </ul>
+
+    </div>
+    <div class="search-bar">
+
+      <div class="form-tab">
+        <div class="top-input">
+          <input type="text" name="" value="New York (NYC)">
+          <input type="text" name="" value="Reykjavík (REK)">
+          <span class="calendar-wrapper box-calendar">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+            <input type="date" name="date" max="Tue Aug 5">-
+            <input type="date" name="date" max="Tue Aug 19">
+            <p>15 days   x</p>
+          </span>
+          <button class="button" name="Search">Search</button>
+          <i class="fa fa-plus-square fa-1x" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="full-container-wrapper" >
+    <div class="left-side-container-wrapper">
+      <div class="first-container-left">
+        <ul>
+          <li class="list-left"><a href="#">Price alert</a></li>
+          <li class="list-left"><a href="#">Airline fees</a></li>
+          <li class="list-left"><a href="#">Fare charts</a></li>
+        </ul>
+        <p class="first-div-second"> Flex Dates: <a href="#">+3 days</a> | <a href="#">Explorer</a> </p>
+      </div>
+
+      <!-- <div class="divider"></div> -->
+      <div class="second-div-container">
+        <h3>Price Trend</h3>
+        <img src="./price-trend.png" alt="Price Trend">
+        <h4>Advice:Wait </h4><h4>Confidence: 79%</h4>
+        <p>Price may fall within 7 days   <i class="fa fa-info" aria-hidden="true"></i> </p>
+      </div>
+      <div class="third-div-container">
+        <h3> Stops </h3>
+
+        <table style="">
+          <tr>
+            <th><input type="checkbox" name="" value="" checked=""></th>
+            <th>nonstop</th>
+            <th id="space-in-table">$863</th>
+          </tr>
+
+          <tr>
+            <th><input type="checkbox" name="" value=""checked=""></th>
+            <th>1 stop</th>
+            <th id="space-in-table">$1000</th>
+          </tr>
+
+          <tr>
+            <th><input type="checkbox" name="" value=""checked=""></th>
+            <th>2+ stops</th>
+            <th id="space-in-table">$2731</th>
+          </tr>
+        </table>
+        <p><a href="#">Show airline/stop price matrix</a></p>
+      </div>
+
+      <div class="fourth-div-container">
+        <h3>Times</h3>
+        <h4>Take-off New York</h4>
+        <p>Tue 2:00p - Wed 12:00a</p>
+        <img src="./Bar.png" alt="bar">
+        <h4>Take-off Reykjavik</h4>
+        <p>Tue 12:00a - Wed 12:00a</p>
+        <img src="./Bar.png" alt="bar">
+        <p><a href="#">Show landing times</a></p>
+      </div>
+      <div class="fifth-div-container">
+        <h3>Airport</h3>
+        <table>
+          <tr>
+            <th><input type="checkbox" name="" value=""></th>
+            <th>Depart/Return, same airport</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="right-side-container">
+      <div class="sort box">
+        <div class="sort-column1">
+            <h1>5 of 64 flights</h1> <p>show all</p>
+        </div>
+          <div class="sort-column2">
+            <p>sort by price (low to high) <i class="fa fa-sort-desc" aria-hidden="true"></i></p>
+          </div>
+      </div>
+
+      <div class="search-results box">
+
+        <div class="price" id="ad-search-results">
+          <h2 id="price-ad-h2">Check Rates</h2>
+          <button class="button-price" name="Search">Select</button>
+        </div>
+
+        <div class="ticket-container-wrapper" id="ad-search-results">
+          <div class="picture">
+            <img src="./Icelandair-logo.png" alt="Icelandair Airline">
+          </div>
+          <div class="airline">
+            <h3>Faster Flights. More Legroom. 2 bags Free</h3>
+            <div class="ad-div">
+              <p>Save time and money with Icelandair on your way to Reykjavík</p>
+              <p id="bold-website">Icelandir.us</p>
+            </div>
+          <div class="grid-ad-img">
+            <img src="./icelandair-big-logo.png" alt="Icelandair Logo">
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="search-results box">
+
+        <div class="price">
+          <h2>$863</h2>
+          <h4>KAYAK</h4>
+          <button class="button-price" name="Search">Select</button>
+
+          <div class="options">
+
+            <div class="options-a">
+              <h5>Orbitz</h5>
+              <h5>Cheap Tickets.c...</h5>
+            </div>
+            <div class="options-b">
+              <h5>$902</h5>
+              <h5>$902</h5>
+            </div>
+
+          </div>
+          <p>6 more sites <i class="fa fa-sort-desc" aria-hidden=""></i></p>
+        </div>
+
+        <div class="ticket-container-wrapper">
+          <div class="picture">
+            <img src="./Icelandair-logo.png" alt="Icelandair Airline">
+          </div>
+          <div class="airline">
+            <h3>Icelander</h3>
+            <div>
+              <table>
+                <tr>
+                  <th>
+                    <p>JFK   </p>
+                    <p><span id="bold-hours">2:10p</span></p>
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <p>KEF</p>
+                    <p><span id="bold-hours">11:40p</span></p>
+                    <p><span id="time">5h 30m</span></p>
+                    <p>nonstop</p>
+                  </th>
+                </tr>
+              </table>
+
+            </div>
+            <div>
+              <table>
+                <tr>
+                  <th>
+                    <p>KEF</p>
+                    <p><span id="bold-hours">10:30a</span></p>
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <p>JFK</p>
+                    <p><span id="bold-hours">12:25p</span></p>
+                    <p><span id="time">5h 55m</span></p>
+                    <p>nonstop</p>
+                  </th>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="buttons-ticket">
+            <button class="ticket-buttons" type="button" name="button">Details</button>
+            <button class="ticket-buttons" type="button" name="button">Fares</button>
+          </div>
+
+          <div class="specifications-ticket">
+            <h4>Economy</h4>
+            <p><span id="bold-specifications">Icelandair operates</span> flight 622, 613</p>
+          </div>
+        </div>
+      </div>
+      <div class="search-results box">
+
+        <div class="price">
+          <h2>$863</h2>
+          <h4>KAYAK</h4>
+          <button class="button-price" name="Search">Select</button>
+
+          <div class="options">
+
+            <div class="options-a">
+              <h5>Orbitz</h5>
+              <h5>Cheap Tickets.c...</h5>
+            </div>
+            <div class="options-b">
+              <h5>$902</h5>
+              <h5>$902</h5>
+            </div>
+
+          </div>
+          <p>6 more sites <i class="fa fa-sort-desc" aria-hidden=""></i></p>
+        </div>
+
+        <div class="ticket-container-wrapper">
+          <div class="picture">
+            <img src="./Icelandair-logo.png" alt="Icelandair Airline">
+          </div>
+          <div class="airline">
+            <h3>Icelander</h3>
+            <div>
+              <table>
+                <tr>
+                  <th>
+                    <p>JFK   </p>
+                    <p><span id="bold-hours">2:10p</span></p>
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <p>KEF</p>
+                    <p><span id="bold-hours">11:40p</span></p>
+                    <p><span id="time">5h 30m</span></p>
+                    <p>nonstop</p>
+                  </th>
+                </tr>
+              </table>
+
+            </div>
+            <div>
+              <table>
+                <tr>
+                  <th>
+                    <p>KEF</p>
+                    <p><span id="bold-hours">10:30a</span></p>
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <p>JFK</p>
+                    <p><span id="bold-hours">12:25p</span></p>
+                    <p><span id="time">5h 55m</span></p>
+                    <p>nonstop</p>
+                  </th>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="buttons-ticket">
+            <button class="ticket-buttons" type="button" name="button">Details</button>
+            <button class="ticket-buttons" type="button" name="button">Fares</button>
+          </div>
+
+          <div class="specifications-ticket">
+            <h4>Economy</h4>
+            <p><span id="bold-specifications">Icelandair operates</span> flight 622, 613</p>
+          </div>
+        </div>
+      </div>
+      <div class="search-results box">
+
+        <div class="price">
+          <h2>$863</h2>
+          <h4>KAYAK</h4>
+          <button class="button-price" name="Search">Select</button>
+
+          <div class="options">
+
+            <div class="options-a">
+              <h5>Orbitz</h5>
+              <h5>Cheap Tickets.c...</h5>
+            </div>
+            <div class="options-b">
+              <h5>$902</h5>
+              <h5>$902</h5>
+            </div>
+
+          </div>
+          <p>6 more sites <i class="fa fa-sort-desc" aria-hidden=""></i></p>
+        </div>
+
+        <div class="ticket-container-wrapper">
+          <div class="picture">
+            <img src="./Icelandair-logo.png" alt="Icelandair Airline">
+          </div>
+          <div class="airline">
+            <h3>Icelander</h3>
+            <div>
+              <table>
+                <tr>
+                  <th>
+                    <p>JFK   </p>
+                    <p><span id="bold-hours">2:10p</span></p>
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <p>KEF</p>
+                    <p><span id="bold-hours">11:40p</span></p>
+                    <p><span id="time">5h 30m</span></p>
+                    <p>nonstop</p>
+                  </th>
+                </tr>
+              </table>
+
+            </div>
+            <div>
+              <table>
+                <tr>
+                  <th>
+                    <p>KEF</p>
+                    <p><span id="bold-hours">10:30a</span></p>
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <p>JFK</p>
+                    <p><span id="bold-hours">12:25p</span></p>
+                    <p><span id="time">5h 55m</span></p>
+                    <p>nonstop</p>
+                  </th>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="buttons-ticket">
+            <button class="ticket-buttons" type="button" name="button">Details</button>
+            <button class="ticket-buttons" type="button" name="button">Fares</button>
+          </div>
+
+          <div class="specifications-ticket">
+            <h4>Economy</h4>
+            <p><span id="bold-specifications">Icelandair operates</span> flight 622, 613</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
