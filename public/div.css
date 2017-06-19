@@ -84,6 +84,7 @@ table {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: left;
+  font-size: 0px;
 }
 .form-date {
   list-style: none;
@@ -98,19 +99,21 @@ table {
   font-family: sans-serif;
 }
 .top-input{
-  border: none
+  border: none;
+  font-size: 0px;
 }
 .top-input input {
-  padding: 8px;
+  padding: 6.3px;
   width: 185px;
   height: 11px;
   border: 0.5px solid lightgrey;
+  font-size: 1rem;
 }
 
 .calendar-wrapper {
   font-style: normal;
   font-family: sans-serif;
-  font-size: smaller;
+  font-size: 1rem;
   padding-right: 40px;
 }
 
@@ -134,8 +137,8 @@ table {
 
 
 .box-calendar {
-  padding-bottom: 6px;
-  padding-top: 6px;
+  padding-bottom: 3px;
+  padding-top: 3px;
   background-color: white;
   border:0.5px solid lightgrey;
   display: inline;
@@ -182,14 +185,23 @@ table {
 .left-side-container-wrapper {
   background-color: rgb(249,249,249);
   display: grid;
-  grid-template-rows: repeat(4 1fr)
+  grid-template-rows: repeat(4 1fr);
+  border-right: 0.5px solid lightgrey;
 }
+
+.divider {
+  display:block;
+    -webkit-margin-before: 10px;
+    -webkit-margin-after: none;
+    border-bottom: 0.5px solid rgb(230, 232, 231);
+}
+
 .first-container-left {
-  border: 0.5px solid;
+
   padding-top: 10px;
   padding-bottom: 5px;
   padding-left: 20px;
-  padding-right: 5px;
+  padding-right: 20px;
   font-size: medium;
   height: auto;
 }
@@ -201,15 +213,15 @@ table {
 
 }
 .first-div-second {
-  padding-top: 1em;
+  padding-top: 10px;
   font-size: smaller;
 }
 .second-div-container {
   height: auto;
-  border-bottom: 0.5px solid;
-  border-right: 0.5px solid;
   padding-left: 20px;
   padding-bottom: 5px;
+  padding-right: 20px;
+  padding-top: none;
 }
 .second-div-container img {
   width: 200px;
@@ -218,7 +230,6 @@ table {
 }
 .second-div-container h3{
   font-weight: bolder;
-  padding-top: 10px;
   color: grey;
 }
 .second-div-container h4{
@@ -234,15 +245,12 @@ table {
 }
 .third-div-container {
   height: auto;
-  border-bottom: 0.5px solid;
-  border-right: 0.5px solid;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-right: 20px;
   padding-bottom: 5px;
 }
 .third-div-container h3{
   font-weight: bolder;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 .third-div-container th {
@@ -261,15 +269,12 @@ table {
 }
 .fourth-div-container {
   height: auto;
-  border-bottom: 0.5px solid;
-  border-right: 0.5px solid;
+  padding-right: 20px;
   padding-left: 20px;
-  padding-top: 10px;
   padding-bottom: 5px;
 }
 .fourth-div-container h3 {
   font-weight: bolder;
-  padding-top: 10px;
   padding-bottom: 5px;
 }
 .fourth-div-container h4 {
@@ -290,15 +295,12 @@ table {
 }
 .fifth-div-container {
   height: auto;
-  border-bottom: 0.5px solid;
-  border-right: 0.5px solid;
+  padding-right: 20px;
   padding-left: 20px;
-  padding-top: 10px;
   padding-bottom: 5px;
 }
 .fifth-div-container h3 {
   font-weight: bolder;
-  padding-top: 10px;
   padding-bottom: 5px;
 }
 .fifth-div-container th {
@@ -350,9 +352,6 @@ table {
   display: inline;
 }
 
-.box {
-  border: 1px solid;
-}
 
 .search-results {
   grid-column-start: 1;
