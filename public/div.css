@@ -190,7 +190,7 @@ table {
   height: auto;
   background-color: purple;
   width: auto;
-  border: 0.5px solid black;
+  border: 0.5px solid lightgrey;
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
