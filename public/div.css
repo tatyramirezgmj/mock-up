@@ -268,7 +268,7 @@ table {
   font-weight: bolder;
   padding-bottom: 10px;
 }
-.third-div-container th {
+.third-div-container tr {
   font-size: small;
   padding-left: 0;
   text-align: left;
@@ -502,7 +502,7 @@ table {
   display: grid;
 }
 
-#bold-website {
+.bold-website {
   color: orange;
   font-weight: bold;
 }
