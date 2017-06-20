@@ -49,15 +49,27 @@ table {
 
 
 .body {
-  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   line-height: 1.4;
+   font-stretch: ultra-condensed;
 }
 
 
 .first-div {
   background-color: blue;
 }
+
 .tabs{
   background-color: rgb(233,233,233);
+}
+
+.tabs h5 {
+  font-size: small;
+  font-weight: bold;
+}
+
+.tabs p {
+  font-size: smaller;
 }
 .search-bar{
   background-color: rgb(248,248,248);
@@ -108,6 +120,8 @@ table {
   height: 11px;
   border: 0.5px solid lightgrey;
   font-size: 1rem;
+  font-stretch: extra-condensed;
+  font-family: sans-serif;
 }
 
 .calendar-wrapper {
@@ -122,9 +136,10 @@ table {
   background-color: white;
   display: inline-block;
   padding: 1px;
-  font-family: sans-serif;
   font-size: smaller;
   padding-right: 0px;
+  font-stretch: extra-condensed;
+  font-family: sans-serif;
 }
 .calendar-wrapper p {
   font-size: small;
@@ -191,9 +206,9 @@ table {
 
 .divider {
   display:block;
-    -webkit-margin-before: 10px;
-    -webkit-margin-after: none;
-    border-bottom: 0.5px solid rgb(230, 232, 231);
+  -webkit-margin-before: 10px;
+  -webkit-margin-after: none;
+  border-bottom: 0.5px solid rgb(230, 232, 231);
 }
 
 .first-container-left {
@@ -367,7 +382,6 @@ table {
 .price {
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-template-columns: 2fr 1fr;
   padding-top: 15px;
   padding-left: 30px;
   padding-right: 15px;
